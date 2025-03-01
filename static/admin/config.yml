@@ -1,8 +1,8 @@
 backend:
     name: github
-    repo: andrewsulisthio/delimaresidences.com
+    repo: andrewsulisthio/rudy1990.com
     branch: content-update
-    base_url: https://delimaresidences.com
+    base_url: https://rudy1990.com
 
 media_folder: ""
 public_folder: ""
@@ -24,33 +24,3 @@ collections:
                       default: "featured.jpg",
                   }
                 - { label: "Body", name: "body", widget: "markdown" }
-    - name: "pengumuman"
-      label: "Pengumuman"
-      folder: "content/pengumuman"
-      path: "{{slug}}/index"
-      create: true
-      fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - {
-                label: "featured.jpg or featured.png",
-                name: "featuredImage",
-                widget: "image",
-                default: "featured.jpg",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-    - name: "merdeka-in-mozaic"
-      label: "Merdeka in Mozaic"
-      folder: "content/merdeka-in-mozaic"
-      path: "{{slug}}/index"
-      create: true
-      fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - {
-                label: "featured.jpg or featured.png",
-                name: "featuredImage",
-                widget: "image",
-                default: "featured.jpg",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }

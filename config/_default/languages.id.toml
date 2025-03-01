@@ -1,12 +1,12 @@
 languageCode = "id-ID"
 languageName = "Indonesian"
-title        = "Delima Residences"
+title        = "Rudy 1990 Samarinda"
 weight       = 1
 
 [params]
-copyright     = "Kontribusi di **[GitHub](https://github.com/andrewsulisthio/delimaresidences.com)**"
+copyright     = "Kontribusi di **[GitHub](https://github.com/andrewsulisthio/rudy1990.com)**"
 dateFormat    = "2 January 2006"
-description   = "Rukun Warga Delima, Perumahan Pondok Tjandra Indah, Desa Tambakrejo, Kecamatan Waru, Kabupaten Sidoarjo, Provinsi Jawa Timur"
+description   = "Rudy 1990 Samarinda"
 displayName   = "ID"
 isoCode       = "id"
 logo          = "img/small_logo.png"
@@ -14,8 +14,8 @@ rtl           = false
 secondaryLogo = ""
 
 [author]
-bio      = "Rukun Warga Delima, Perumahan Pondok Tjandra Indah, Desa Tambakrejo, Kecamatan Waru, Kabupaten Sidoarjo, Provinsi Jawa Timur"
-headline = "Rukun Warga Delima, Perumahan Pondok Tjandra Indah, Desa Tambakrejo, Kecamatan Waru, Kabupaten Sidoarjo, Provinsi Jawa Timur"
+bio      = "Rudy 1990 Samarinda"
+headline = "Rudy 1990 Samarinda"
 image    = "img/medium_logo.png"
 links    = [  ]
-name     = "Delima Residences"
+name     = "Rudy 1990 Samarinda"

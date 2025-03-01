@@ -15,36 +15,6 @@ name = "Beranda"
 pageRef = "/"
 weight = 10
 
-[[main]]
-name = "Pengumuman"
-pageRef = "pengumuman"
-weight = 10
-
-[[main]]
-name = "Merdeka in Mozaic"
-pageRef = "merdeka-in-mozaic"
-pre = "star"
-weight = 20
-
-[[main]]
-name = "Merdeka Games"
-parent = "Merdeka in Mozaic"
-pageRef = "merdeka-in-mozaic/merdeka-games"
-weight = 20
-
-[[main]]
-name = "Paws of Freedom"
-parent = "Merdeka in Mozaic"
-pageRef = "merdeka-in-mozaic/paws-of-freedom"
-weight = 20
-
-[[main]]
-name = "Bazaar Pendekar"
-parent = "Merdeka in Mozaic"
-pageRef = "merdeka-in-mozaic/bazaar-pendekar"
-weight = 20
-
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.

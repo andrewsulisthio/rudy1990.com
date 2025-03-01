@@ -4,7 +4,7 @@
 
 archetypeDir                         = "archetypes"
 assetDir                             = "assets"
-baseURL                              = "https://delimaresidences.com/"
+baseURL                              = "https://rudy1990.com/"
 buildDrafts                          = false
 buildExpired                         = false
 buildFuture                          = false

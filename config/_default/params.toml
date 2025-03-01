@@ -6,8 +6,8 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 autoSwitchAppearance          = false
-colorScheme                   = "forest"
-defaultAppearance             = "dark"
+colorScheme                   = "Slate"
+defaultAppearance             = "light"
 defaultBackgroundImage        = ""
 defaultFeaturedImage          = ""
 disableImageOptimization      = false
@@ -36,7 +36,7 @@ showThemeAttribution   = false
 [homepage]
 cardView             = true
 cardViewScreenWidth  = false
-homepageImage        = "img/background.jpg"
+homepageImage        = "img/background.png"
 layout               = "background"
 layoutBackgroundBlur = true
 showMoreLink         = false
