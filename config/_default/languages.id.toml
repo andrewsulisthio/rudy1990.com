@@ -1,0 +1,21 @@
+languageCode = "id-ID"
+languageName = "Indonesian"
+title        = "Delima Residences"
+weight       = 1
+
+[params]
+copyright     = "Kontribusi di **[GitHub](https://github.com/andrewsulisthio/delimaresidences.com)**"
+dateFormat    = "2 January 2006"
+description   = "Rukun Warga Delima, Perumahan Pondok Tjandra Indah, Desa Tambakrejo, Kecamatan Waru, Kabupaten Sidoarjo, Provinsi Jawa Timur"
+displayName   = "ID"
+isoCode       = "id"
+logo          = "img/small_logo.png"
+rtl           = false
+secondaryLogo = ""
+
+[author]
+bio      = "Rukun Warga Delima, Perumahan Pondok Tjandra Indah, Desa Tambakrejo, Kecamatan Waru, Kabupaten Sidoarjo, Provinsi Jawa Timur"
+headline = "Rukun Warga Delima, Perumahan Pondok Tjandra Indah, Desa Tambakrejo, Kecamatan Waru, Kabupaten Sidoarjo, Provinsi Jawa Timur"
+image    = "img/medium_logo.png"
+links    = [  ]
+name     = "Delima Residences"

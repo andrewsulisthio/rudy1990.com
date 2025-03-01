@@ -1,0 +1,23 @@
+<div class="flex items-center justify-between">
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+        {{- with replace .Site.Params.copyright "{ year }" now.Year }} {{ . |
+        emojify | markdownify }} {{- else }} &copy; {{ now.Format "2006" }} {{
+        .Site.Author.name | markdownify | emojify }} {{- end }}
+    </p>
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        {{ $hugo := printf `<a
+            class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Hugo</a
+        >` }} {{ $blowfish := printf `<a
+            class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://blowfish.page/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Blowfish</a
+        >` }} {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish)
+        | safeHTML }}
+    </p>
+</div>

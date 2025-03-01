@@ -1,0 +1,137 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+autoSwitchAppearance          = false
+colorScheme                   = "forest"
+defaultAppearance             = "dark"
+defaultBackgroundImage        = ""
+defaultFeaturedImage          = ""
+disableImageOptimization      = false
+disableImageZoom              = false
+disableTextInHeader           = false
+enableCodeCopy                = false
+enableSearch                  = false
+highlightCurrentMenuArea      = true
+mainSections                  = [  ]
+robots                        = ""
+showLikes                     = ""
+showViews                     = ""
+smartTOC                      = ""
+smartTOCHideUnfocusedChildren = ""
+
+[header]
+layout = "fixed"
+
+[footer]
+showAppearanceSwitcher = false
+showCopyright          = false
+showMenu               = true
+showScrollToTop        = true
+showThemeAttribution   = false
+
+[homepage]
+cardView             = true
+cardViewScreenWidth  = false
+homepageImage        = "img/background.jpg"
+layout               = "background"
+layoutBackgroundBlur = true
+showMoreLink         = false
+showMoreLinkDest     = "pengumuman"
+showRecent           = false
+showRecentItems      = 6
+
+[article]
+editAppendPath              = true
+editURL                     = ""
+heroStyle                   = "background"
+invertPagination            = false
+layoutBackgroundBlur        = true
+layoutBackgroundHeaderSpace = true
+relatedContentLimit         = 3
+seriesOpened                = false
+sharingLinks                = ""
+showAuthor                  = true
+showAuthorBottom            = false
+showAuthorsBadges           = true
+showBreadcrumbs             = true
+showComments                = false
+showDate                    = true
+showDateOnlyInArticle       = false
+showDateUpdated             = true
+showDraftLabel              = true
+showEdit                    = false
+showHeadingAnchors          = true
+showHero                    = true
+showLikes                   = false
+showPagination              = true
+showReadingTime             = false
+showRelatedContent          = false
+showSummary                 = true
+showTableOfContents         = true
+showTaxonomies              = true
+showViews                   = false
+showWordCount               = false
+showZenMode                 = false
+
+[list]
+cardView                    = true
+cardViewScreenWidth         = false
+constrainItemsWidth         = false
+groupByYear                 = false
+heroStyle                   = "background"
+layoutBackgroundBlur        = true
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs             = true
+showCards                   = true
+showHero                    = true
+showLikes                   = false
+showSummary                 = true
+showTableOfContents         = false
+showViews                   = false
+
+[sitemap]
+excludedKinds = [  ]
+
+[taxonomy]
+cardView            = false
+heroStyle           = ""
+showBreadcrumbs     = false
+showHero            = false
+showLikes           = false
+showTableOfContents = false
+showTermCount       = true
+showViews           = false
+
+[firebase]
+apiKey            = ""
+appId             = ""
+authDomain        = ""
+measurementId     = ""
+messagingSenderId = ""
+projectId         = ""
+storageBucket     = ""
+
+[fathomAnalytics]
+domain = ""
+site   = ""
+
+[umamiAnalytics]
+domain    = ""
+websiteid = ""
+
+[BuyMeACoffee]
+globalWidget         = ""
+globalWidgetColor    = ""
+globalWidgetMessage  = ""
+globalWidgetPosition = ""
+identifier           = ""
+
+[verification]
+bing      = ""
+google    = ""
+pinterest = ""
+yandex    = ""
